@@ -39,6 +39,14 @@ export const Skills = () => {
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Image" />
+                                <h5>C/C++</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="Image" />
+                                <h5>Rust</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="Image" />
                                 <h5>Java</h5>
                             </div>
                             <div className="item">
@@ -46,16 +54,8 @@ export const Skills = () => {
                                 <h5>Spring</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>C++</h5>
-                            </div>
-                            <div className="item">
                                 <img src={meter3} alt="Image" />
-                                <h5>C</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter2} alt="Image" />
-                                <h5>GO</h5>
+                                <h5>Go</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
@@ -63,7 +63,7 @@ export const Skills = () => {
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
-                                <h5>Docker/Kubernetes</h5>
+                                <h5>DevOps</h5>
                             </div>
                         </Carousel>
                     </div>
